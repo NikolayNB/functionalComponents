@@ -8,7 +8,7 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 function FormSignUp (){
 
     const [name, setName] = useState('NIKOLAY');
-    useEffect(() => {} , [name]);
+    useEffect(() => {console.log("cambio ", name)} , [name]);
 
     return (
         <form>  
