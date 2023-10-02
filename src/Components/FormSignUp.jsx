@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Button from '@mui/material/Button'
 import TextField from '@mui/material/TextField';
 import Switch from '@mui/material/Switch';
@@ -8,6 +8,7 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 function FormSignUp (){
 
     const [name, setName] = useState('NIKOLAY');
+    useEffect(() => {} , [name]);
 
     return (
         <form>  
